@@ -1,0 +1,69 @@
+body {
+  margin-bottom: 100px;
+}
+
+.booking-main {
+  display: flex; /* Make it a flex container *//* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  background-color: #040714;
+  color: white;
+  margin-inline-start: 0px;
+  max-height: max-content;
+}
+
+.horizontal-container {
+  flex: 1; /* Takes one-third of the available horizontal space */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+
+.booking-main{
+    background-color: #040714;
+    color: white;
+}
+/* Add styles for the selected session and selected seats */
+.selected-session {
+    margin-top: 20px;
+  }
+  
+  .selected-seats {
+    margin-top: 20px;
+  }
+  
+  .selected-session h4,
+  .selected-seats h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .selected-session p,
+  .selected-seats p {
+    font-size: 16px;
+  }
+
+  .movie-image {
+    flex: 2; /* Takes two-thirds of the available horizontal space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: box-shadow 0.3s, transform 0.3s;
+  }
+  
+  .movie-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Hover effect for the movie image */
+  .movie-image:hover {
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+  }

@@ -1,0 +1,31 @@
+.Container-cndmvd {
+    padding: 30px 0px 0px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.Container img {
+    padding: 0px 20px 0px 5px;
+}
+
+.Details {
+    line-height: 3px;
+    padding: 10px;
+    text-align: left;
+}
+
+@media (max-width: 900px) {
+    .Details h1 {
+        font-size: 22px;
+    }
+}
+
+.SubTitle {
+    color: rgb(249, 249, 249, 0.6);
+    font-size: 15px;
+    min-height: 20px;
+    margin-top: 26px;
+}

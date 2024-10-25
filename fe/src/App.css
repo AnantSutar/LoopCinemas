@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+  color: white;
+}
+
+hr {
+  line-height: 1px;
+}
+
+.Footer {
+  background-color: #282c34;
+}
+
+Button {
+  color: #282c34;
+}

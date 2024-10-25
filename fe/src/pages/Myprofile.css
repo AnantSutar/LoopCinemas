@@ -1,0 +1,136 @@
+.form-myprofile {
+  display: flex;
+  justify-content: center; /* Horizontally center the form */
+  align-items: flex-start; /* Vertically center the form */
+  height: 100vh; /* Makes sure the form covers the entire viewport height */
+  background-color: #373737; /* Background color for the whole form area */
+
+}
+
+.ticket-list {
+  padding: 20px; /* Add some padding around the form content */
+  background-color: #070505; /* Background color for the form content */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.justform {
+  padding: 20px; /* Add some padding around the form content */
+  background-color: #070505; /* Background color for the form content */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-right: 150px;
+}
+
+.label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  margin-right: 30px;
+}
+
+.input {
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  /* border: 1px solid #ccc; */
+  border-radius: 4px;
+  width: 100%;
+  background-color: #ccc;
+}
+
+.error {
+  color: rgb(255, 0, 0);
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.button-left {
+  display: flex;
+  justify-content: space-between;
+}
+
+.butprofile {
+  background-color: #007bffb1;
+  color: #fff;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 48%; /* Adjust button width as needed */
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.delete-button {
+  background-color: #ff0000;
+}
+
+.topline {
+  display: flex;
+  align-items: center;
+}
+
+.button-left Button {
+  flex: 1; /* Make the buttons equally share the available space */
+  margin-right: 10px; /* Add some spacing between buttons */
+  padding: 10px 20px; /* Adjust padding to control button size */
+  font-size: 14px; /* Set the font size */
+}
+
+
+
+
+/* .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin: 30px auto;
+  padding: 20px;
+  background: linear-gradient(80.91deg, #505155 35.59%, #323438 70.15%),#dadada;
+  background-color: #828282;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.input {
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 80%;
+}
+
+.input[type="email"],
+.input[type="password"] {
+  width: 100%;
+}
+
+.error {
+  color: rgb(255, 0, 0);
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #007bffb1;
+  color: #fff;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+ */

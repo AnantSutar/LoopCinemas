@@ -1,0 +1,36 @@
+.MovieCarousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+  
+  .Carousel {
+    text-align: center;
+  }
+  
+  .Carousel img {
+    max-width: 100%;
+    height: auto;
+    align-content: center;
+  }
+  
+  .Carousel.Caption {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .Carousel.Caption h3 {
+    font-size: 24px;
+    margin: 5px 0;
+    color: white;
+  }
+  
+  .Carousel.Caption p {
+    font-size: 16px;
+    color: white;
+  }
+  
+  
+  

@@ -1,0 +1,33 @@
+/* Modal Styles */
+.modal-paper {
+    position: absolute;
+    width: 320px; /* Set the width as needed */
+    background-color: white;
+    border: 2px solid #000;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Modal Header Styles */
+  .modal-paper h6 {
+    margin-bottom: 10px;
+  }
+  
+  /* Modal Body Styles */
+  .modal-paper p {
+    margin: 10px 0;
+  }
+  
+  /* Button Styles */
+  .modal-paper .MuiButton-root {
+    margin: 10px;
+  }
+  
+  /* Centered Buttons */
+  .modal-paper .MuiBox-root {
+    text-align: center;
+  }
+  

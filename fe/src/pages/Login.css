@@ -1,0 +1,58 @@
+:root {
+  --primary-bg-color: #505155;
+  --secondary-bg-color: #323438;
+  --form-bg-fallback: #828282;
+  --input-border-color: #ccc;
+  --error-color: rgb(255, 0, 0);
+  --button-bg-color: #007bffb1;
+  --button-bg-hover-color: #0056b3;
+  --text-color: #fff;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin: 30px auto;
+  padding: 20px;
+  background: linear-gradient(80.91deg, var(--primary-bg-color) 35.59%, var(--secondary-bg-color) 70.15%), var(--form-bg-fallback);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: var(--text-color);
+}
+
+.input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid var(--input-border-color);
+  border-radius: 4px;
+  width: 80%;
+  font-size: 16px; /* Improve readability */
+}
+
+.error {
+  color: var(--error-color);
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.button {
+  background-color: var(--button-bg-color);
+  color: var(--text-color);
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.button:hover {
+  background-color: var(--button-bg-hover-color);
+}

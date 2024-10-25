@@ -1,0 +1,56 @@
+/* MovieDetailPage.css */
+
+.movie-detail-card {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #0c111b;
+  color: whitesmoke;
+}
+
+/* Style for the banner container */
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* Style for the movie image */
+.movie-image img {
+  max-width: 200px;
+  height: auto;
+}
+
+/* Style for the movie details */
+.movie-details {
+  flex: 1;
+  padding: 0 20px;
+}
+
+/* Style for the "BOOK" button */
+.book-tickets {
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+/* Style for the session buttons */
+.session-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Style for each session button */
+.session-buttons button {
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+/* Style for the "Login to book tickets" message */
+.movie-detail-card p {
+  font-size: 16px;
+  margin-top: 10px;
+}

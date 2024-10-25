@@ -1,0 +1,23 @@
+
+
+  .session-button {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid rgba(249, 249, 249, 0.5);
+    color: rgba(249, 249, 249, 0.5);
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+  }
+  
+  .session-button:hover {
+    background-color: rgba(249, 249, 249, 0.5);
+    color: #fff;
+  }
+  
+  .session-button.selected {
+    background-color: rgba(249, 249, 249, 0.5);
+    color: #fff;
+  }
