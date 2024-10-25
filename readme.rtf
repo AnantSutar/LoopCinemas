@@ -1,26 +1,42 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2709
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Roman;}
-{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
-{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww19480\viewh14800\viewkind0
-\deftab720
-\pard\pardeftab720\qj\partightenfactor0
+# Loop Cinemas
 
-\f0\fs32 \cf2 \expnd0\expndtw0\kerning0
-Answer to how will we cancel a booking or reservation logic?\
-\
-\
-In addressing the scenario of a user cancelling a reservation, our solution will be tailored to focus solely on the ticket reservations associated with a specific movie session. The modified logic will entail identifying the specific movie ticket reservation using both the user's unique identifier and the movie session ID. Once identified, the system will update the session's available ticket count, incrementing it based on the number of tickets the user had reserved. This ensures that when a reservation is canceled, the available tickets for the movie session are accurately updated. The user's ticket reservation is then deleted from the 'movieticket' database. Throughout this process, the user's account and their associated reviews remain untouched. To future-proof this solution, we'd implement clear input validation and error-handling mechanisms, ensuring that only valid ticket cancellations are processed. Additionally, the system could be enhanced to notify the user with confirmation messages or emails post-cancellation, providing a seamless user experience.\
-\
-\
-Install npm install to install the modules respectively.\
-\
-To run tests- npm test\
-\
-Run the frontend (FE):\
--go the frontend directory first\
--npm start\
-\
-Run the backend(be)\
-Go to the backend directory\
--node server.js}
+**Loop Cinemas** is a full-stack web application designed for users to book movie tickets and share reviews seamlessly. This platform integrates a dynamic frontend with a robust backend to manage ticket bookings effectively and allow users to connect by sharing movie reviews.
+
+### Technology Stack
+- **Frontend**: React
+- **Backend**: Node.js with Express
+- **Database**: MySQL
+
+### Key Features
+
+1. **Ticket Booking**  
+   Users can browse currently available movies, select preferred showtimes, and reserve their seats with ease.
+
+2. **User Authentication**  
+   Users can create accounts, log in, and manage their bookings and reviews securely.
+
+3. **Movie Reviews**  
+   After watching a movie, users can share reviews on the movie’s page, helping others decide on their next film.
+
+### How It Works
+
+1. **Booking Tickets**  
+   - Users can log in to their accounts or register as new users.
+   - Browse the list of playing and upcoming movies.
+   - Select a movie and choose a showtime.
+   - Reserve seats through an intuitive interface showing real-time seat availability.
+   - Complete the booking and receive a confirmation, which can be viewed in the user’s account.
+
+2. **Leaving Reviews**  
+   - Users can leave reviews on movies they’ve watched by providing ratings and comments.
+   - Reviews are displayed publicly to help other users get insights into the movie.
+
+### Technical Overview
+
+Loop Cinemas utilizes MySQL to handle data related to users, bookings, movies, and reviews. The React frontend is responsive, designed for use across devices, and communicates with the Node and Express backend via a RESTful API.
+
+### Future Enhancements
+
+Future improvements include integrating payment processing for booking confirmations, expanding review features with multimedia attachments, and adding advanced filtering for users to search movies by genre, ratings, or popularity.
+
+**Loop Cinemas** is crafted to enrich the movie-going experience, offering a single platform for booking tickets and sharing thoughts on films.
